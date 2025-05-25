@@ -4,7 +4,7 @@ import Requerimientos from './Requerimientos';
 import Productos from './Productos';
 import Carrito from './Carrito';
 
-// Componente que gestiona qué vista se muestra en función del estado global
+// Componente que gestiona qué vista global
 const AppContent = () => {
   const { currentPage } = useContext(AppContext);
 
